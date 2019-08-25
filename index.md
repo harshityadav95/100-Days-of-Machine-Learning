@@ -11,7 +11,10 @@ This is the Curriculum for "Learn Machine Learning in 3 Months" [this](https://y
 
 ## Week 1 Linear Algebra
 https://www.youtube.com/watch?v=kjBOesZCoqc&index=1&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab
+Link Notes : https://medium.com/@harshityadav95/notes-essence-of-linear-algebra-7d5388b2a940 
+
 https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/
+Link Notes : 
 
 
 
