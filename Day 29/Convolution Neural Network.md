@@ -87,3 +87,87 @@ The main benefits of padding are the following:
 
 - It allows you to use a CONV layer without necessarily shrinking the height and width of the volumes. This is important for building deeper networks, since otherwise the height/width would shrink as you go to deeper layers. An important special case is the "same" convolution, in which the height/width is exactly preserved after one layer.
 - It helps us keep more of the information at the border of an image. Without padding, very few values at the next layer would be affected by pixels as the edges of an image.
+
+
+
+### Case Studies
+
+- LeNet-5
+- ![image-20200712123653916](image-20200712123653916.png)
+- AlexNet
+
+ ![image-20200712124247719](image-20200712124247719.png) 
+
+- VGG -16 
+
+![image-20200712130954258](image-20200712130954258.png)
+
+- ResNet
+
+![image-20200712132421148](image-20200712132421148.png)
+
+![image-20200712132656830](image-20200712132656830.png)
+
+![image-20200712133556702](image-20200712133556702.png)
+
+![image-20200712140428207](image-20200712140428207.png)
+
+## 1x1 convolution
+
+![image-20200712191633788](image-20200712191633788.png)
+
+ 
+
+![image-20200712200458499](image-20200712200458499.png)
+
+
+
+![image-20200712202951676](image-20200712202951676.png)
+
+- Inception NN
+
+![image-20200712203714383](image-20200712203714383.png)
+
+![image-20200712203943947](image-20200712203943947.png)
+
+![image-20200712204218596](image-20200712204218596.png)
+
+- Inception Module
+- Inception Network , GoogleNet
+
+
+
+## Practical Advice for using ConvNets
+
+- Use github and author  implementation of the code  
+
+## Transfer Learning  
+
+- Using pre trained weight from one model to train another whose data is not much available to train 
+
+  
+
+## Data Augmentation 
+
+- changing the existing data with more color and cropping and rotation to generate the new data  for training  for the dataset
+- PCA color augmentation 
+- Distortion , can be done via cropping  , mirroring  , rotation  , color  change  
+
+
+
+## State of Computer Vision 
+
+For doing well on benchmarking. winning competition , not for production system
+
+- Ensembling 
+
+- Multi Crop at test time 
+
+  
+
+
+
+
+
+
+
