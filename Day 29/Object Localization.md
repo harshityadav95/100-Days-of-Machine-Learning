@@ -51,7 +51,20 @@ to solve the problem of detecting the same object multiple times in an image ,by
 
  ## Anchor Boxes to solve overlapping objects
 
+![image-20200715200147034](image-20200715200147034.png)
 
+![image-20200715200327720](image-20200715200327720.png)
 
+## Yolo Algorithm
 
+![image-20200716164227779](image-20200716164227779.png)
 
+![image-20200716171902983](image-20200716171902983.png)
+
+## Region Proposal (optional)
+
+- Run a segmentation algorithm  
+
+  ![image-20200716172240077](image-20200716172240077.png)
+
+![image-20200716172534511](image-20200716172534511.png)
