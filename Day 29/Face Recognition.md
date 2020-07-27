@@ -40,3 +40,50 @@ choose hard triplets for better training  , source paper listed below on facenet
 
 ### Face Verification and Binary Classification
 
+Turning triples loss function into the binary classification problem ,using logistic regression to classify  it into either zero or one , 
+
+Vide : https://www.youtube.com/watch?v=GWa9xsMU0Pg
+
+![image-20200727114747692](image-20200727114747692.png)
+
+Precompute the values so that  you dont have to calculate the values everytime 
+
+## Neural Style Transfer
+
+-  transfer the style from one image to the another images
+
+  ![image-20200727130809602](image-20200727130809602.png)
+
+## What are deep ConvNets learning?
+
+![image-20200727160103834](image-20200727160103834.png)
+
+to find how what activates the hidden units , deeper layer have more clear idea and understanding
+
+![image-20200727160349637](image-20200727160349637.png)
+
+## Cost Function for Neural Style Transfer
+
+![image-20200727161006235](image-20200727161006235.png)
+
+![image-20200727161134921](image-20200727161134921.png)
+
+## Content Cost Function
+
+![image-20200727162124325](image-20200727162124325.png)
+
+## Style Cost Function
+
+![image-20200727162451691](image-20200727162451691.png)
+
+![image-20200727162616984](image-20200727162616984.png)
+
+![image-20200727162804789](image-20200727162804789.png)
+
+![image-20200727162825502](image-20200727162825502.png)
+
+#### 1D and 3D Generalizations
+
+![image-20200727164504430](image-20200727164504430.png)
+
+![image-20200727164947995](image-20200727164947995.png)
